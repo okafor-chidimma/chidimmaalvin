@@ -1,8 +1,17 @@
 .text-center{
   text-align: center;
 }
+#navbar{
+  position: fixed;
+  top: 0;
+  right: 0;
 
-#projects{
-  height: 100vh;
- 
+}
+#welcome-section, #projects{
+  height: 100vh; 
+}
+@media (max-width: 28.75em) {
+  #projects {
+    height: 100vh;
+  }
 }
